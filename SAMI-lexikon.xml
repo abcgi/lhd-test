@@ -1,25 +1,10 @@
 <lexicon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2005/01/pronunciation-lexicon" xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd" version="1.0" alphabet="ipa" xml:lang="de-DE">
-
-<!--   duesseldorf: 'ue' soll nicht als ü gesprochen werden,
-       wir geben eine IPA-Aussprache an, die 'u' + 'e' getrennt realisiert.   -->
-	<lexeme>
-		<grapheme>duesseldorf</grapheme>
-		<phoneme alphabet="ipa">duɛsəldɔʁf</phoneme>
-	</lexeme>
-
-	<!--   Optional: Variante ohne .de / mit Punkten, falls die Engine das benötigt   -->
-	<lexeme>
-		<grapheme>duesseldorf.de</grapheme>
-		<phoneme alphabet="ipa">duɛsəldɔʁf pʊŋkt deː</phoneme>
-	</lexeme>
-	<lexeme>
-		<grapheme>Standesamt</grapheme>
-		<phoneme alphabet="ipa">ˈamt</phoneme>
-	</lexeme>
-
-	<!--   Slash: als Wort "Schrägstrich" aussprechen   -->
-	<lexeme>
-		<grapheme>/</grapheme>
-		<alias>Schrägstrich</alias>
-	</lexeme>
+<lexeme>
+<grapheme>/</grapheme>
+<alias>Schrägstrich</alias>
+</lexeme>
+<lexeme>
+<grapheme>düsseldorf</grapheme>
+<phoneme alphabet="ipa">duɛsəldɔʁf</phoneme>
+</lexeme>
 </lexicon>
